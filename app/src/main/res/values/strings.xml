@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PandarenDemoApp</string>
+
+    <!--nav drawer-->
+    <string name="user_profile">user profile</string>
+    <string name="inbox">inbox</string>
+    <string name="starred">starred</string>
+    <string name="sent_mail">sent_mail</string>
+    <string name="drafts">drafts</string>
+    <string name="all_mail">all_mail</string>
+    <string name="trash">trash</string>
+    <string name="spam">spam</string>
+
+    <string name="oprn_drawer">open navigation drawer</string>
+    <string name="close_drawer">close navigation drawer</string>
+
+    <string name="first_page">First Page</string>
+    <string name="second_page">Second Page</string>
+    <string name="third_page">Third Page</string>
+    <string name="panda_pic">panda pic</string>
+    <string name="testing_collapse1">testing collapse1</string>
+    <string name="testing_collapse2">testing collapse2</string>
+    <string name="testing_collapse3">testing collapse3</string>
+    <string name="testing_collapse4">testing collapse4</string>
+    <string name="testing_collapse5">testing collapse5</string>
+    <string name="testing_collapse6">testing collapse6</string>
+    <string name="testing_collapse7">testing collapse7</string>
+    <string name="testing_collapse8">testing collapse8</string>
+    <string name="raised_button">raised_button</string>
+
+</resources>
