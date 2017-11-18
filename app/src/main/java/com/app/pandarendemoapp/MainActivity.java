@@ -88,19 +88,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         int id = item.getItemId();
+        Intent intent;
 
         switch (id){
 
             case R.id.inbox_id:
 
-                Intent intent = new Intent(MainActivity.this, CollapsingToolbar.class);
+                intent = new Intent(MainActivity.this, CollapsingToolbar.class);
                 startActivity(intent);
 
                 break;
 
             case R.id.starred_id:
 
-                Toast.makeText(getApplicationContext(),"starred",Toast.LENGTH_LONG).show();
+                intent = new Intent(MainActivity.this, RecyclerActivity.class);
+                startActivity(intent);
 
                 break;
 
