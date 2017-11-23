@@ -18,8 +18,8 @@
         </activity>
         <activity
             android:name=".CollapsingToolbar"
-            android:label="Pandaren Dada"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="Pandaren Dada">
         </activity>
         <activity android:name=".RecyclerActivity">
         </activity>
