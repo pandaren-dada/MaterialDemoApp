@@ -29,5 +29,6 @@
     <string name="raised_button">raised_button</string>
     <string name="image_profile">image profile</string>
     <string name="collapse_pic">collapse pic</string>
+    <string name="movie">movie</string>
 
 </resources>

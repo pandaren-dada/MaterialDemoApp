@@ -108,7 +108,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.sent_id:
 
-                Toast.makeText(getApplicationContext(),"sent mail",Toast.LENGTH_LONG).show();
+                intent = new Intent(MainActivity.this, SlideShowActivity.class);
+                startActivity(intent);
 
                 break;
 
