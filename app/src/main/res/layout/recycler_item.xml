@@ -6,7 +6,9 @@
     android:layout_height="100dp"
     android:layout_marginTop="8dp"
     android:gravity="start"
-    android:id="@+id/recyclerItem_id">
+    android:id="@+id/recyclerItem_id"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
 
     <ImageView
         android:id="@+id/imageView_id"

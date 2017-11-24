@@ -84,6 +84,6 @@ public class RecyclerActivity extends AppCompatActivity {
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(linearLayoutManager);
         mRecyclerView.setHasFixedSize(true);
-        mRecyclerView.setAdapter(new RecyclerAdapter(userList));
+        mRecyclerView.setAdapter(new RecyclerAdapter(getBaseContext(), userList));
     }
 }

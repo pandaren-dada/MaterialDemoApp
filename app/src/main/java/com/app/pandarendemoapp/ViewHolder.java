@@ -3,6 +3,7 @@ package com.app.pandarendemoapp;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
@@ -11,8 +12,9 @@ import android.widget.TextView;
 
 public class ViewHolder extends RecyclerView.ViewHolder {
 
-    ImageView image;
-    TextView name, desc;
+    public ImageView image;
+    public TextView name, desc;
+    public LinearLayout mLinearLayout;
 
     public ViewHolder(View itemView) {
         super(itemView);
@@ -20,5 +22,6 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         image = (ImageView)itemView.findViewById(R.id.imageView_id);
         name = (TextView)itemView.findViewById(R.id.name_text);
         desc = (TextView)itemView.findViewById(R.id.desc_text);
+        mLinearLayout = (LinearLayout)itemView.findViewById(R.id.recyclerItem_id);
     }
 }

@@ -1,9 +1,11 @@
 package com.app.pandarendemoapp;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -14,9 +16,11 @@ import java.util.List;
 public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
 
     private List<User> users;
+    private Context mContext;
 
-    public RecyclerAdapter(List<User> users) {
+    public RecyclerAdapter(Context context, List<User> users) {
         this.users = users;
+        mContext = context;
     }
 
     @Override
@@ -27,13 +31,19 @@ public class RecyclerAdapter extends RecyclerView.Adapter<ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
 
         User sampleuser = users.get(position);
 
         holder.name.setText(sampleuser.userName);
         holder.desc.setText(sampleuser.userDesc);
         holder.image.setImageResource(sampleuser.userImg);
+        holder.mLinearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(mContext, "item" + position + "clicked", Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
 
