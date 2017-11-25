@@ -23,6 +23,12 @@
         <item name="android:textColor">@color/colorRaisedButtonText</item>
 
     </style>
+    
+    <style name="SeekBarTheme" parent="Base.Widget.AppCompat.SeekBar">
+        
+        <item name="android:colorAccent">@color/colorSeekBar</item>
+
+    </style>
 
 </resources>
 

@@ -1,10 +1,11 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.Toolbar;
+
+import com.app.materialdemoapp.adapter.RecyclerAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

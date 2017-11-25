@@ -1,4 +1,4 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

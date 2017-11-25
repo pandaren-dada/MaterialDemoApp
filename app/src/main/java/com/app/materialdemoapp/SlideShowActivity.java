@@ -1,10 +1,12 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp;
 
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+
+import com.app.materialdemoapp.adapter.SlideShowAdapter;
 
 import java.util.Timer;
 import java.util.TimerTask;

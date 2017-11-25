@@ -1,4 +1,4 @@
-package com.app.pandarendemoapp.Fragment;
+package com.app.materialdemoapp.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -7,24 +7,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.app.pandarendemoapp.R;
+import com.app.materialdemoapp.R;
 
 /**
  * Created by Dll HuaiKhwang on 9/11/2560.
  */
 
-public class SecondFragment extends Fragment{
+public class ThirdFragment extends Fragment {
 
     View mView;
 
-    public SecondFragment() {
+    public ThirdFragment() {
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        mView = inflater.inflate(R.layout.viewpager2_layout, container, false);
+        mView = inflater.inflate(R.layout.viewpager3_layout, container, false);
 
         return mView;
     }

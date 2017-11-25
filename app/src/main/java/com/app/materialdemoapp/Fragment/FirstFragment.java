@@ -1,15 +1,13 @@
-package com.app.pandarendemoapp.Fragment;
+package com.app.materialdemoapp.Fragment;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.AppCompatButton;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
-import com.app.pandarendemoapp.R;
+import com.app.materialdemoapp.R;
 
 /**
  * Created by Dll HuaiKhwang on 9/11/2560.

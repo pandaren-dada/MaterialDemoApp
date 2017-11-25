@@ -1,4 +1,4 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp;
 
 /**
  * Created by Dll HuaiKhwang on 17/11/2560.

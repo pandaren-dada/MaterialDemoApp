@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.app.pandarendemoapp">
+          package="com.app.materialdemoapp">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.app.materialdemoapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -17,13 +17,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CollapsingToolbar"
+            android:name="com.app.materialdemoapp.CollapsingToolbar"
             android:label="Pandaren Dada"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".RecyclerActivity">
+        <activity android:name="com.app.materialdemoapp.RecyclerActivity">
         </activity>
-        <activity android:name=".SlideShowActivity">
+        <activity android:name="com.app.materialdemoapp.SlideShowActivity">
+        </activity>
+        <activity android:name="com.app.materialdemoapp.SeekBarActivity">
         </activity>
     </application>
 

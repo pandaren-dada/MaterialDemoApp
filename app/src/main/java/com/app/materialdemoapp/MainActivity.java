@@ -1,4 +1,4 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -13,16 +13,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.app.pandarendemoapp.Fragment.FirstFragment;
-import com.app.pandarendemoapp.Fragment.SecondFragment;
-import com.app.pandarendemoapp.Fragment.ThirdFragment;
-
-import static android.R.attr.drawable;
-import static android.R.attr.id;
-import static android.R.attr.toolbarStyle;
+import com.app.materialdemoapp.Fragment.FirstFragment;
+import com.app.materialdemoapp.Fragment.SecondFragment;
+import com.app.materialdemoapp.Fragment.ThirdFragment;
+import com.app.materialdemoapp.adapter.ViewPageAdapter;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -115,7 +111,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.drafts_id:
 
-                Toast.makeText(getApplicationContext(),"drafts",Toast.LENGTH_LONG).show();
+                intent = new Intent(MainActivity.this, SeekBarActivity.class);
+                startActivity(intent);
 
                 break;
 

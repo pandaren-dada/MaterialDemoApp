@@ -8,4 +8,6 @@
     <color name="colorRaisedButtonText">#FFFFFF</color>
 
     <color name="colorTabTitle">#ffffff</color>
+
+    <color name="colorSeekBar">#FFEB3B</color>
 </resources>

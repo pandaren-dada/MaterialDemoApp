@@ -1,4 +1,4 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp.adapter;
 
 import android.content.Context;
 import android.support.design.widget.Snackbar;
@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.app.materialdemoapp.R;
 import com.bumptech.glide.Glide;
 
 /**

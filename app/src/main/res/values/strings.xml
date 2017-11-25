@@ -31,4 +31,7 @@
     <string name="collapse_pic">collapse pic</string>
     <string name="movie">movie</string>
 
+    <string name="appcompat_seek_bar">Appcompat Seek bar :</string>
+    <string name="_0">0</string>
+
 </resources>

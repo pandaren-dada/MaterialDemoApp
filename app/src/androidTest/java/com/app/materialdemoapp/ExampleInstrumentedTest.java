@@ -1,4 +1,4 @@
-package com.app.pandarendemoapp;
+package com.app.materialdemoapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
